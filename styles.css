@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Navegação*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.1rem;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    padding: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.un {
+height: 50px;
+margin-top: 10px;
+margin-left: 10px;
+}
+
+/*Corpo*/
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.as {
+height: 500px;
+margin-top: 60px;
+}
+
+section {
+    padding: 1.8rem;
+}
+
+h1, h2, p   {
+    font-size: 5.0rem;
+    margin-bottom: 1.0rem;
+    font-family: 'DM Sans', sans-serif;
+}
+
+h2 {
+    font-size: 3.0rem;
+}
+
+p {
+    font-size: 2.0rem;
+}
+
+button {
+    font-size: 1.0rem;
+    margin-top: 1.6rem;
+    margin-left: 1.5rem;
+    font-family: 'Mukta', sans-serif;
+
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+
+    background-color: rgba(25, 255, 109, 0.8);
+    border: 0.1rem solid rgba(1,1,1,0.5);
+
+}
